@@ -1,0 +1,208 @@
+body{
+    background-image: url("bg.png");
+    background-repeat: no-repeat;
+    background-size: 1920px 1000px;
+  }
+
+.create{
+    width: 35%;
+    z-index: 1;
+    background-color: #cbeeecd6;
+    border-radius: 48px;
+    flex-direction: column;
+    flex-basis: 61%;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 80px;
+    margin-left: 15%;
+    padding-top: 96px;
+    padding-bottom: 32px;
+    padding-left: 49px;
+    display: flex;
+}
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+  .cr{
+      color: rgba(10, 10, 10, 0.603);
+      width: 100%;
+      height: 100%;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center;
+      padding-bottom: 24px;
+      padding-right: 62px;
+      font-family: Poppins;
+      font-size: 2.0rem;
+      font-weight: 400;
+      line-height: 36px;
+      display: flex;
+    }
+    .mail{
+        width: 49px;
+        height: 29px;
+        margin-right: 20px;
+        object-fit: cover;
+        background-position: center;
+        background-size: cover;
+        background-image: url("mail.png");
+       
+    }
+    .input{
+        height: 30px;
+        margin-bottom: 15px;
+    }
+    .image-2 {
+        width: 49px;
+        margin-top: px;
+        height: 31px;
+        margin-right: 20px;
+        object-fit: cover;
+        background-position: center;
+        background-size: cover;
+      background-image: url("man.png");
+    }
+    .image-3 {
+      width: 46px;
+      height: 29px;
+      object-fit: cover;
+      margin-right: 7%;
+      background-position: center;
+      background-size: cover;
+      margin-bottom: 20px;
+      margin-left: 3px;
+      background-image: url("pwd.png");
+    }
+    .image-4 {
+        width: 46px;
+        margin-top: px;
+        height: 29px;
+        margin-left: 5px;
+        margin-right: 20px;
+        object-fit: cover;
+        background-position: center;
+        background-size: cover;
+      background-image: url("pwd.png");
+    }
+    .email{
+        width: 45%;
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 12px;
+        display: flex;
+    }
+    .urname{
+        width: 45%;
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 12px;
+        display: flex;
+    }
+    .pwd{
+        width: 45%;
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 12px;
+        display: flex;
+    }
+    .cpwd{
+        width: 45%;
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 12px;
+        display: flex;
+    }
+    input{
+      border: none;
+      border-radius: 4px;
+      border: none;
+      width: 120%;
+      margin-left: 0%;
+      height: 50%;
+      align-items: center;
+      margin-top: 20px;
+      background-color: #cbeeecd6;
+    }
+    
+    .rectangle-27 {
+      color: #fff;
+      width: 40%;
+      align-items: center;
+      background-color: #e25f5f;
+      border: none;
+      border-radius: 41px;
+      padding-bottom: 1px;
+      padding-left: 3px;
+      font-family: Inter;
+      font-size: 2rem;
+      font-weight: 500;
+      line-height: 39px;
+      display: flex;
+      cursor: pointer;
+    }
+    .or {
+      margin-bottom: 28px;
+      margin-left: 35%;
+      margin-right: 70%;
+    }
+    
+    .flex-container-6 {
+      width: 20%;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: flex-end;
+      margin-top: 7px;
+      margin-bottom: 8px;
+      margin-left: 490px;
+      display: flex;
+    }
+    
+    .image-19 {
+      width: 55px;
+      height: 55px;
+      object-fit: cover;
+      background-position: center;
+      background-size: cover;
+      margin-right: 1px;
+      background-image: url("google.png");
+    }
+    
+    .image-22 {
+      width: 59px;
+      height: 58px;
+      object-fit: cover;
+      background-position: center;
+      background-size: cover;
+      align-self: center;
+      background-image: url("fb.png");
+    }
+    
+    .image-24 {
+      width: 59px;
+      height: 60px;
+      object-fit: cover;
+      background-position: center;
+      background-size: cover;
+      background-image: url("twitter.png");
+    }
+    .box{
+        width: 55%;
+        flex-direction: row;
+        justify-content: space-between;
+        align-self: flex-end;
+        align-items: flex-end;
+        margin-top: 4px;
+        margin-left: 5px;
+        margin-right: 23%;
+        margin-bottom: 2%;
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 38px;
+        display: flex;
+    }
+    .boxx{
+        width: 36px;
+        height: 30px;
+        object-fit: cover;
+    }
