@@ -20,10 +20,6 @@ body{
     padding-left: 49px;
     display: flex;
 }
-a{
-    text-decoration: none;
-    color: whitesmoke;
-}
   .cr{
       color: rgba(10, 10, 10, 0.603);
       width: 100%;
@@ -41,7 +37,7 @@ a{
     }
     .mail{
         width: 49px;
-        height: 29px;
+        height: 49px;
         margin-right: 20px;
         object-fit: cover;
         background-position: center;
@@ -56,7 +52,7 @@ a{
     .image-2 {
         width: 49px;
         margin-top: px;
-        height: 31px;
+        height: 49px;
         margin-right: 20px;
         object-fit: cover;
         background-position: center;
@@ -64,10 +60,10 @@ a{
       background-image: url("man.png");
     }
     .image-3 {
-      width: 46px;
-      height: 29px;
+      width: 49px;
+      height: 49px;
       object-fit: cover;
-      margin-right: 7%;
+      margin-right: 6%;
       background-position: center;
       background-size: cover;
       margin-bottom: 20px;
@@ -75,11 +71,11 @@ a{
       background-image: url("pwd.png");
     }
     .image-4 {
-        width: 46px;
+        width: 49px;
         margin-top: px;
-        height: 29px;
+        height: 49px;
         margin-left: 5px;
-        margin-right: 20px;
+        margin-right: 6%;
         object-fit: cover;
         background-position: center;
         background-size: cover;
@@ -129,7 +125,7 @@ a{
       color: #fff;
       width: 40%;
       align-items: center;
-      background-color: #e25f5f;
+      background-color: #00e1ff98;
       border: none;
       border-radius: 41px;
       padding-bottom: 1px;
@@ -205,4 +201,17 @@ a{
         width: 36px;
         height: 30px;
         object-fit: cover;
+    }
+    Button{
+      background-color: red;
+    }
+    .ar{
+      color: aliceblue;
+      background-color: rgba(110, 230, 13, 0.589);
+      border-radius: 12px;
+      width: 70%;
+      height: 0%;
+    }
+    .ar:hover{
+      background-color: rgb(6, 141, 130);
     }

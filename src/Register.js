@@ -1,7 +1,11 @@
 import './registeri.css'
 import './Log.js'
+import { TextField,Button } from '@mui/material'
 import {Link} from 'react-router-dom'
 import './Log'
+import mail from './mail.png'
+import man from './man.png'
+import pwd from './pwd.png'
 
 const Register = () => {
     const prom = () =>{
@@ -12,21 +16,25 @@ const Register = () => {
         <div className='cr'>CREATE ACCOUNT</div>
         <div className='create'>
  <div  className='email'>
-
-                <p className='mail'/>
-                <input type="email" className="input" placeholder='EMAIL' required></input>
+                <img className='mail' src={mail} alt="r"/>
+                {/* <p /> */}
+                <TextField id="outlined-basic" label="Username" variant="outlined" />
+                {/* <input type="email" className="input" placeholder='EMAIL' required></input> */}
         </div>
         <div className='urname'>
-                <p className="image-2" />
-                <input type="text" className="input" placeholder='USERNAME' required></input>
+                <img className="image-2" src={man} />
+                <TextField id="outlined-basic" label="Email" variant="outlined" />
+                {/* <input type="text" className="input" placeholder='USERNAME' required></input> */}
         </div>
         <div className='pwd'>
-                <p className="image-3" />
-                <input type="password" className="input" placeholder="PASSWORD"required></input>
+                <img className="image-3" src={pwd}/>
+                <TextField id="outlined-basic" label="Password" variant="outlined" />
+                {/* <input type="password" className="input" placeholder="PASSWORD"required></input> */}
         </div>
         <div className='cpwd'>
-                <p className="image-4" />
-                <input type="password" className="input" placeholder="CONFIRM PASSWORD" required></input>
+                <img className="image-4" src={pwd}/>
+                <TextField id="outlined-basic" label="Confirm Password" variant="outlined" />
+                {/* <input type="password" className="input" placeholder="CONFIRM PASSWORD" required></input> */}
         </div>
         <div className='box'>
                     <input type="checkbox" className='boxx' ></input>
@@ -34,9 +42,9 @@ const Register = () => {
         </div>
         
    
-        <button className="rectangle-27" onClick={prom}>
-          <span className="create-account-1"><a className='ar'><Link to="/Log">CREATE ACCOUNT</Link></a></span>
-        </button>
+        <Button className="rectangle-27" onClick={prom}>
+          <a className='ar'><Link to="/Log">CREATE ACCOUNT</Link></a>
+        </Button>
         </div>
       <span className="or">OR</span>
       <div className="flex-container-6">
