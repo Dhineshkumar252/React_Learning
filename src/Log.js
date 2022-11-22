@@ -1,3 +1,6 @@
+
+
+
 import React from 'react'
 import'./login.css'
 import './Register.js';
@@ -38,3 +41,5 @@ const Log = () => {
 }
 
 export default Log
+
+
