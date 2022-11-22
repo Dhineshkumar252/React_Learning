@@ -206,8 +206,8 @@ body{
       background-color: red;
     }
     .ar{
-      color: blue;
-      background-color: orange;
+      color: aliceblue;
+      background-color: rgba(110, 230, 13, 0.589);
       border-radius: 12px;
       width: 70%;
       height: 30%;
